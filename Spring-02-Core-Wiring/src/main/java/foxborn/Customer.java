@@ -1,4 +1,4 @@
-package com.foxborn;
+package foxborn;
 
 import lombok.Getter;
 import lombok.Setter;

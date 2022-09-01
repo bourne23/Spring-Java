@@ -1,4 +1,4 @@
-package com.foxborn;
+package foxborn;
 
 import org.springframework.stereotype.Component;
 

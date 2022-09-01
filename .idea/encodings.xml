@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Spring-00-Coupling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-00-Coupling/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-01-Core-IoC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-03-Core-DI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-03-Core-DI/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-04-Abstraction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-04-Abstraction/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

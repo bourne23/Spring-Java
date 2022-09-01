@@ -1,4 +1,4 @@
-package com.foxborn.stereotype_annotation;
+package foxborn.stereotype_annotation;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

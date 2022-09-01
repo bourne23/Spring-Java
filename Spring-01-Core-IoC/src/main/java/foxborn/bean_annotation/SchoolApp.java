@@ -3,7 +3,7 @@ package foxborn.bean_annotation;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class CydeoApp {
+public class SchoolApp {
     public static void main(String[] args) {
      // define configuration method, and pass config class with beans (can be more than one)
         ApplicationContext container = new AnnotationConfigApplicationContext(ConfigApp.class,ConfigAny.class);

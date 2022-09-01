@@ -1,6 +1,6 @@
-package com.foxborn.loosely_coupled;
+package foxborn.loosely_coupled;
 
-public class CydeoApp {
+public class SchoolApp {
     public static void main(String[] args) {
 
         FullTimeMentor fullTime = new FullTimeMentor();

@@ -1,4 +1,4 @@
-package com.foxborn.tightly_coupled;
+package foxborn.tightly_coupled;
 
 public class PartTimeMentor {
     public void createAccount(){

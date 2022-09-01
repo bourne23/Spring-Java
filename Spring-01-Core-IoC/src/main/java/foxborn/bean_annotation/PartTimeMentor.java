@@ -1,4 +1,4 @@
-package com.foxborn.bean_annotation;
+package foxborn.bean_annotation;
 
 public class PartTimeMentor {
 

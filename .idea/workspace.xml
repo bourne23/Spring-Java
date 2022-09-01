@@ -4,8 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="springboot demo">
+      <change afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/resources/newfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/FullTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/Mentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/MentorAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/MentorAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/PartTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/SchoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/SchoolApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/FullTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/Mentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/PartTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/SchoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/SchoolApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/ConfigAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/ConfigAny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/ConfigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/FullTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/PartTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/SchoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/SchoolApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Agile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Agile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/ConfigCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/ConfigCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/SchoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/SchoolApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/ConfigCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/ConfigCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/DealerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/DealerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/ConfigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/Java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/OfficeHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/OfficeHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/TestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/TestApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/foxborn/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/foxborn/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/FoxbornApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/FoxbornApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBootDemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +52,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2E7dtgv3A9cz3ROKSxkLHRgKkmO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,12 +65,82 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/Olessya/IdeaProjects/Spring-Java/Spring-Java/Spring-06-SpringBootDemo/src/main/java/com/foxborn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "b652c69a9755ec8d1115f17b0d588154"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn" />
+      <recent name="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java" />
+      <recent name="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java" />
+      <recent name="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java" />
+      <recent name="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FoxbornApp">
+    <configuration name="DealerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="foxborn.DealerApp" />
+      <module name="Spring-02-Core-Wiring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foxborn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoxbornApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.foxborn.FoxbornApp" />
+      <module name="Spring-05-Core-BeanScope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foxborn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring06SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-06-SpringBootDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.foxborn.SpringBootApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FoxbornApp" />
+        <item itemvalue="Application.DealerApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="" />
@@ -36,9 +148,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661950775490</updated>
-      <workItem from="1661950777459" duration="1000" />
+      <workItem from="1661950777459" duration="2817000" />
+      <workItem from="1661953660656" duration="8483000" />
+      <workItem from="1661965764981" duration="3558000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -50,5 +167,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Spring-06-SpringBootDemo" />
+    </ignored-roots>
   </component>
 </project>

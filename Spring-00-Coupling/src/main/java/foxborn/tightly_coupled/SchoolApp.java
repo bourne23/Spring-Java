@@ -1,6 +1,6 @@
-package com.foxborn.tightly_coupled;
+package foxborn.tightly_coupled;
 
-public class CydeoApp {
+public class SchoolApp {
     public static void main(String[] args) {
 
         FullTimeMentor fullTime = new FullTimeMentor();

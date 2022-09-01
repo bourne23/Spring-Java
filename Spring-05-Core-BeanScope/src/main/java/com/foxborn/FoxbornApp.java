@@ -2,7 +2,6 @@ package com.foxborn;
 
 import com.foxborn.config.ProjectConfig;
 import com.foxborn.model.Comment;
-import com.foxborn.service.CommentService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -16,8 +15,6 @@ public class FoxbornApp {
         ApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 // eager instantiation injects all dependencies at loading the context
  // with @Lazy - spring will instantiate bean only when someone calls it, not at loading
-
-
 
 
 //        CommentService cs1 = context.getBean(CommentService.class);
