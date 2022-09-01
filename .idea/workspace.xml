@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="spring controller">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="spring model">
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/model/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/model/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/product/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/user/user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/springmodel/Spring08SpringMvcModelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/FoxSportsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/test/java/com/foxborn/spring08springmvcmodel/Spring08SpringMvcModelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/test/java/com/foxborn/spring08springmvcmodel/FoxSportsApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/Olessya/IdeaProjects/Spring-Java/Spring-Java/Spring-07-Spring-MVC-Controller/src/main/resources/static",
+    "last_opened_file_path": "/Users/Olessya/IdeaProjects/Spring-Java/Spring-Java/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,11 +65,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn" />
       <recent name="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn" />
       <recent name="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java" />
       <recent name="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java" />
-      <recent name="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/user" />
+      <recent name="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.foxborn" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.foxborn.controller" />
@@ -78,7 +89,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring08SpringMvcModelApplication">
+  <component name="RunManager" selected="Spring Boot.FoxSportsApplication">
     <configuration name="DealerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="foxborn.DealerApp" />
       <module name="Spring-02-Core-Wiring" />
@@ -105,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring08SpringMvcModelApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FoxSportsApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring-08-Spring-MVC-Model" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +125,21 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.foxborn.spring08springmvcmodel" />
-      <option name="MAIN_CLASS_NAME" value="com.foxborn.spring08springmvcmodel.Spring08SpringMvcModelApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.foxborn.spring08springmvcmodel.FoxSportsApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoxSportsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-08-Spring-MVC-Model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.foxborn.FoxSportsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foxborn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,7 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Spring08SpringMvcModelApplicationTests" />
+        <item itemvalue="Spring Boot.FoxSportsApplication" />
+        <item itemvalue="JUnit.FoxSportsApplicationTests" />
         <item itemvalue="Application.FoxbornApp" />
         <item itemvalue="Application.DealerApp" />
       </list>
@@ -163,7 +188,7 @@
       <workItem from="1661950777459" duration="2817000" />
       <workItem from="1661953660656" duration="8483000" />
       <workItem from="1661965764981" duration="8984000" />
-      <workItem from="1662053285598" duration="496000" />
+      <workItem from="1662053285598" duration="2695000" />
     </task>
     <task id="LOCAL-00001" summary="springboot demo">
       <created>1662045412198</created>
@@ -193,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662052954140</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="spring model">
+      <created>1662053844849</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662053844849</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +253,7 @@
     <MESSAGE value="springboot demo" />
     <MESSAGE value="spring mvc" />
     <MESSAGE value="spring controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring controller" />
+    <MESSAGE value="spring model" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring model" />
   </component>
 </project>
