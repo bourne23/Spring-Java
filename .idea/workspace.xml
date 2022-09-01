@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="spring model">
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/model/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/model/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/product/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/user/user.html" afterDir="false" />
+    <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="spring model and thymeleaf">
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/controller/AnotherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/controller/InstructorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/enums/Gender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/springmodel/Spring08SpringMvcModelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/FoxSportsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/test/java/com/foxborn/spring08springmvcmodel/Spring08SpringMvcModelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/test/java/com/foxborn/spring08springmvcmodel/FoxSportsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/model/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/model/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/product/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/product/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/Olessya/IdeaProjects/Spring-Java/Spring-Java/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn",
+    "last_opened_file_path": "/Users/Olessya/IdeaProjects/Spring-Java/Spring-Java/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/controller",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn/controller" />
       <recent name="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/foxborn" />
       <recent name="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn" />
       <recent name="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java" />
-      <recent name="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/user" />
@@ -79,6 +78,7 @@
       <recent name="com.foxborn" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.foxborn.enums" />
       <recent name="com.foxborn.controller" />
     </key>
   </component>
@@ -188,7 +188,7 @@
       <workItem from="1661950777459" duration="2817000" />
       <workItem from="1661953660656" duration="8483000" />
       <workItem from="1661965764981" duration="8984000" />
-      <workItem from="1662053285598" duration="2695000" />
+      <workItem from="1662053285598" duration="3431000" />
     </task>
     <task id="LOCAL-00001" summary="springboot demo">
       <created>1662045412198</created>
@@ -225,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662053844849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="spring model and thymeleaf">
+      <created>1662058102010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662058102010</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +261,7 @@
     <MESSAGE value="spring mvc" />
     <MESSAGE value="spring controller" />
     <MESSAGE value="spring model" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring model" />
+    <MESSAGE value="spring model and thymeleaf" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring model and thymeleaf" />
   </component>
 </project>
