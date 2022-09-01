@@ -5,45 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="springboot demo">
-      <change afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/resources/newfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/FullTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/Mentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/MentorAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/MentorAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/PartTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/SchoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/loosely_coupled/SchoolApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/FullTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/Mentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/PartTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/SchoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/foxborn/tightly_coupled/SchoolApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/ConfigAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/ConfigAny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/ConfigApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/FullTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/PartTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/SchoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/bean_annotation/SchoolApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Agile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Agile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/ConfigCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/ConfigCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/SchoolApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/SchoolApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/foxborn/stereotype_annotation/Selenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/ConfigCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/ConfigCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/DealerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/foxborn/DealerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/ConfigApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/OfficeHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/OfficeHours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/Selenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/TestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-03-Core-DI/src/main/java/foxborn/TestApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/foxborn/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/foxborn/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/FoxbornApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/FoxbornApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/foxborn/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBootDemo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/SpringBootApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/config/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/proxy/CommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/proxy/CommentPushNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/repository/DBCommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/java/com/foxborn/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBootDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBootDemo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,8 +126,16 @@
       <updated>1661950775490</updated>
       <workItem from="1661950777459" duration="2817000" />
       <workItem from="1661953660656" duration="8483000" />
-      <workItem from="1661965764981" duration="3558000" />
+      <workItem from="1661965764981" duration="3859000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot demo">
+      <created>1662045412198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662045412198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +158,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Spring-06-SpringBootDemo" />
     </ignored-roots>
+    <MESSAGE value="springboot demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot demo" />
   </component>
 </project>
