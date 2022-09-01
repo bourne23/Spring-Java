@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="spring mvc">
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/foxborn/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/foxborn/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static/user/userinfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static/welcome.html" afterDir="false" />
+    <list default="true" id="3e06dfcd-2885-4729-9814-5f63424bed5d" name="Changes" comment="spring controller">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/foxborn/Spring07SpringMvcControllerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/foxborn/FoxbornApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/test/java/com/foxborn/Spring07SpringMvcControllerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/test/java/com/foxborn/FoxbornApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "b652c69a9755ec8d1115f17b0d588154"
+    "spring.configuration.checksum": "43f3a5a175c3a6d2dfba3b8c8ae299b2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,7 +71,14 @@
       <recent name="com.foxborn.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring07SpringMvcControllerApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Spring08SpringMvcModelApplication">
     <configuration name="DealerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="foxborn.DealerApp" />
       <module name="Spring-02-Core-Wiring" />
@@ -103,6 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring08SpringMvcModelApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-08-Spring-MVC-Model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foxborn.spring08springmvcmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.foxborn.spring08springmvcmodel" />
+      <option name="MAIN_CLASS_NAME" value="com.foxborn.spring08springmvcmodel.Spring08SpringMvcModelApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring06SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-06-SpringBootDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.foxborn.SpringBootApp" />
@@ -117,8 +134,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring08SpringMvcModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-08-Spring-MVC-Model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.foxborn.spring08springmvcmodel.Spring08SpringMvcModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Spring08SpringMvcModelApplicationTests" />
         <item itemvalue="Application.FoxbornApp" />
         <item itemvalue="Application.DealerApp" />
       </list>
@@ -137,7 +162,8 @@
       <updated>1661950775490</updated>
       <workItem from="1661950777459" duration="2817000" />
       <workItem from="1661953660656" duration="8483000" />
-      <workItem from="1661965764981" duration="8705000" />
+      <workItem from="1661965764981" duration="8984000" />
+      <workItem from="1662053285598" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="springboot demo">
       <created>1662045412198</created>
@@ -160,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662047088001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spring controller">
+      <created>1662052954140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662052954140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,9 +216,11 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Spring-06-SpringBootDemo" />
       <path value="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller" />
+      <path value="$PROJECT_DIR$/Spring-08-Spring-MVC-Model" />
     </ignored-roots>
     <MESSAGE value="springboot demo" />
     <MESSAGE value="spring mvc" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring mvc" />
+    <MESSAGE value="spring controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring controller" />
   </component>
 </project>
