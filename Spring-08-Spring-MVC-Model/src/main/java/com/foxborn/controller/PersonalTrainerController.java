@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping("/another")
-public class AnotherController {
+@RequestMapping("/trainer")
+public class PersonalTrainerController {
 
     @RequestMapping("/list")     // localhost:8080/another/list
     public String showTable(Model model){
