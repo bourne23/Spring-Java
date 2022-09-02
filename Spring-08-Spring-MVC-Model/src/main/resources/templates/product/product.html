@@ -2,13 +2,20 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Classes Portal</title>
 </head>
 <body>
 
 <h1> Welcome </h1>
 <h2 th:text="${name}"></h2>
 <h2 th:text="${class}"></h2>
+<h2 th:text="${location}"></h2>
+<h2 th:text="${id}"></h2>
+<h2 th:text="${numbers}"></h2>
+<h2 th:text="${numbers.get(3)}"></h2>
+<h2 th:text="${member.firstName}"></h2>
+<h2 th:text="${member.getLastName()}"></h2>
+
 
 
 

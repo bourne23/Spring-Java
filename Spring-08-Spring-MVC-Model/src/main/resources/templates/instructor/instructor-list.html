@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instructor Portal</title>
+</head>
+
+<body>
+<h1>Instructor Portal</h1>
+<table>
+<!--this is header of table, table row, table data-->
+    <thead>
+    <tr>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Age</td>
+        <td>Gender</td>
+    </tr>
+    </thead>
+<!-- in the body, paste one row per each member, and their data-->
+    <tbody>
+<!--    first member on the list of instructors-->
+    <tr>
+        <td th:text="${instructors.get(0).firstName}"></td>
+        <td th:text="${instructors.get(0).lastName}"></td>
+        <td th:text="${instructors.get(0).age}"></td>
+        <td th:text="${instructors.get(0).gender}"></td>
+    </tr>
+<!--    second member on the list of instructors-->
+    <tr>
+        <td th:text="${instructors.get(1).firstName}"></td>
+        <td th:text="${instructors.get(1).lastName}"></td>
+        <td th:text="${instructors.get(1).age}"></td>
+        <td th:text="${instructors.get(1).gender}"></td>
+    </tr>
+<!--    third member on the list of instructors-->
+    <tr>
+        <td th:text="${instructors.get(2).firstName}"></td>
+        <td th:text="${instructors.get(2).lastName}"></td>
+        <td th:text="${instructors.get(2).age}"></td>
+        <td th:text="${instructors.get(2).gender}"></td>
+    </tr>
+
+    </tbody>
+</table>
+</body>
+</html>
