@@ -43,7 +43,7 @@ public class FitnessController {
         return "fitness/fitness-info";
     }
 
-    //2.1. =======================PATH VARIABLE=======================
+    //2.1. =======================PATH VARIABLE======================= cant have optional param!
     @RequestMapping("/info/{className}/{day}")      //http://localhost:8080/fitness/info/bodypump/saturday
     public String getCarInfo(@PathVariable String className, @PathVariable String day, Model model){
         model.addAttribute("className",className);
