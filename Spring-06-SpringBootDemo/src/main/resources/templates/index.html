@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--    inside head, paste bootstrap meta, as well as at the bottom of html paste scripts-->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous">
+
     <title>HTML Review</title>
 </head>
 <body>
@@ -111,8 +117,220 @@
     </ul>
 </div>
 
+<!--copied boootstrap example  -- CONTEXTUAL CLASSES -->
+<table class="table">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="table-success">
+        <th scope="row">1</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>jdoe@gmail.com</td>
+    </tr>
+    <tr class="table-danger">
+        <th scope="row">2</th>
+        <td>Will</td>
+        <td>Johnson</td>
+        <td>will@yahoo.com</td>
+    </tr>
+    <tr class="table-warning">
+        <th scope="row">3</th>
+        <td>Shannon</td>
+        <td>Williams</td>
+        <td>shannon@yahoo.com</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<!--copied boootstrap example CARD WITH NAV-->
+<div class="card">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Card Title</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+        <a class="btn btn-primary" href="#">Read More</a>
+    </div>
+</div>
+
+<!--button-->
+<button class="btn btn-success btn-sm" type="button">Login</button>
+
+<!--responsive grid -->
+
+<div class="container">
+    <!--####################START HERE####################-->
+
+    <!-- RESPONSIVE GRID -->
+    <div class="row">
+        <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10" style="border:1px solid #333">
+            <ul>
+                <li>6 column on small screens</li>
+                <li>8 column on medium screen</li>
+                <li>9 column on large screen</li>
+                <li>10 column on xlarge screen</li>
+            </ul>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" style="border:1px solid #333">
+            <ul>
+                <li>6 column on small screens</li>
+                <li>4 column on medium screen</li>
+                <li>3 column on large screen</li>
+                <li>2 column on xlarge screen</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- EQUAL WIDTH -->
+    <div class="row">
+        <div class="col" style="border:1px solid #333">Equal Width</div>
+        <div class="col" style="border:1px solid #333">Equal Width</div>
+        <div class="col" style="border:1px solid #333">Equal Width</div>
+        <div class="col" style="border:1px solid #333">Equal Width</div>
+    </div>
+
+    <!-- EQUAL WIDTH MULTI ROW -->
+    <div class="row">
+        <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+        <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+        <div class="w-100" style="border:1px solid #333"></div>
+        <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+        <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+    </div>
+
+    <!-- AUTO LAYOUT -->
+    <div class="row">
+        <div class="col" style="border:1px solid #333">Auto Layout</div>
+        <div class="col-6" style="border:1px solid #333">Auto Layout</div>
+        <div class="col-4" style="border:1px solid #333">Auto Layout</div>
+    </div>
+
+    <!-- EQUAL WIDTH STACKED -->
+    <div class="row">
+        <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+        <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+        <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+    </div>
+
+    <!-- ORDERING -->
+    <div class="row">
+        <div class="col order-3" style="border:1px solid #333">
+            First
+        </div>
+        <div class="col order-2" style="border:1px solid #333">
+            Second
+        </div>
+        <div class="col order-1" style="border:1px solid #333">
+            Third
+        </div>
+    </div>
+
+    <!-- OFFSETTING -->
+    <div class="row">
+        <!-- 6 column div offset by 3 -->
+        <div class="col-md-6 offset-md-3" style="border:1px solid #333">.col-md-6 .offset-md-3</div>
+    </div>
+    <div class="row">
+        <!-- 2 4 column divs, the second offset by 4 -->
+        <div class="col-md-4" style="border:1px solid #333">.col-md-4</div>
+        <div class="col-md-4 offset-md-4" style="border:1px solid #333">.col-md-4 .offset-md-4</div>
+    </div>
+
+    <div class="row">
+        <!-- 2 3 column divs, both offset by 3 -->
+        <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+        <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+    </div>
+
+    <!-- NESTING -->
+    <div class="row">
+        <div class="col-sm-9" style="border:1px solid blue">
+            Level 1: .col-sm-9
+            <div class="row">
+                <div class="col-8 col-sm-6" style="border:1px solid red">
+                    Level 2: .col-8 .col-sm-6
+                </div>
+                <div class="col-4 col-sm-6" style="border:1px solid red">
+                    Level 2: .col-4 .col-sm-6
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top:500px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+    <script>
+        (function() {
+            var ws = new WebSocket('ws://' + window.location.host +
+                '/jb-server-page?reloadMode=RELOAD_ON_SAVE&'+
+                'referrer=' + encodeURIComponent(window.location.pathname));
+            ws.onmessage = function (msg) {
+                if (msg.data === 'reload') {
+                    window.location.reload();
+                }
+                if (msg.data.startsWith('update-css ')) {
+                    var messageId = msg.data.substring(11);
+                    var links = document.getElementsByTagName('link');
+                    for (var i = 0; i < links.length; i++) {
+                        var link = links[i];
+                        if (link.rel !== 'stylesheet') continue;
+                        var clonedLink = link.cloneNode(true);
+                        var newHref = link.href.replace(/(&|\?)jbUpdateLinksId=\d+/, "$1jbUpdateLinksId=" + messageId);
+                        if (newHref !== link.href) {
+                            clonedLink.href = newHref;
+                        }
+                        else {
+                            var indexOfQuest = newHref.indexOf('?');
+                            if (indexOfQuest >= 0) {
+                                // to support ?foo#hash
+                                clonedLink.href = newHref.substring(0, indexOfQuest + 1) + 'jbUpdateLinksId=' + messageId + '&' +
+                                    newHref.substring(indexOfQuest + 1);
+                            }
+                            else {
+                                clonedLink.href += '?' + 'jbUpdateLinksId=' + messageId;
+                            }
+                        }
+                        link.replaceWith(clonedLink);
+                    }
+                }
+            };
+        })();
+    </script></div>
+
+<!--bootstrap related library-->
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"-->
+<!--        crossorigin="anonymous"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"-->
+<!--        crossorigin="anonymous"></script>-->
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"-->
+<!--        crossorigin="anonymous"></script>-->
 
 </body>
+
 </html>
 
 
