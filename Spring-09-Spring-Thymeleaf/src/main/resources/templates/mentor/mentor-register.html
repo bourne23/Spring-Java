@@ -10,7 +10,7 @@
 <body>
 
   <form th:action="@{/mentor/confirm}" method="post"  th:object="${mentor}">
-
+<!--input is text in text box , labeled firstname; -->
       <label>First Name:</label>
      <input type="text" id="FirstName" th:field="*{firstName}"><br>
 
