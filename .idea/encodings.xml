@@ -17,6 +17,10 @@
     <file url="file://$PROJECT_DIR$/Spring-06-SpringBootDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-12-ORM-Mapping-ManyToMany/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
