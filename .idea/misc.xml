@@ -8,6 +8,11 @@
         <option value="$PROJECT_DIR$/Spring-06-SpringBootDemo/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-ORM-TableCreation/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-12-ORM-Mapping-ManyToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/pom.xml" />
       </list>
     </option>
   </component>
