@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Component
 @Transactional
-public class DataGenerator implements CommandLineRunner {
+public class DataGenerator implements CommandLineRunner {     // test derived queries
 
     private final RegionRepository regionRepository;
     private final DepartmentRepository departmentRepository;
@@ -34,27 +34,26 @@ public class DataGenerator implements CommandLineRunner {
         System.out.println("findByCountryContaining:" + regionRepository.findByCountryContaining("United"));
         System.out.println("findByCountryContainingOrderByCountry:" + regionRepository.findByCountryContainingOrderByCountry("Asia"));
         System.out.println("findTopByCountry:" + regionRepository.findTop2ByCountry("Canada"));
-
         System.out.println("-----------------REGION END-----------------");
 
-        System.out.println("-----------------DEPARTMENT START-----------------");
 
+
+        System.out.println("-----------------DEPARTMENT START----------------");
         System.out.println("findByDepartment:" + departmentRepository.findByDepartment("Toys"));
         System.out.println("findByDivisionIs:" + departmentRepository.findByDivisionIs("Outdoors"));
         System.out.println("findDistinctTop3ByDivisionContains:" + departmentRepository.findDistinctTop3ByDivisionContains("Hea"));
-
-
-
         System.out.println("-----------------DEPARTMENT END-----------------");
 
-        System.out.println("-----------------EMPLOYEE START-----------------");
 
+
+
+        System.out.println("-----------------EMPLOYEE START-----------------");
         System.out.println("getEmployeeDetail:" + employeeRepository.getEmployeeDetail());
         System.out.println("getEmployeeSalary:" + employeeRepository.getEmployeeSalary());
-
-
-
         System.out.println("-----------------EMPLOYEE  END-----------------");
+
+
+
 
         System.out.println("-----------------COURSE START-----------------");
 
@@ -79,8 +78,6 @@ public class DataGenerator implements CommandLineRunner {
         System.out.println("---------------------------");
 
         courseRepository.streamByCategory("Spring").forEach(System.out::println);
-
-
 
         System.out.println("-----------------COURSE  END-----------------");
 

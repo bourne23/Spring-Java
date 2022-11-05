@@ -10,8 +10,8 @@ import javax.transaction.Transactional;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
-
-public interface EmployeeRepository extends JpaRepository<Employee,Long> {
+                                                               //primary key type
+public interface EmployeeRepository extends JpaRepository<Employee,Long> {   // derived queries
 
     //Display all employees with email address ' '
     List<Employee> findByEmail(String email);
@@ -43,6 +43,10 @@ public interface EmployeeRepository extends JpaRepository<Employee,Long> {
     //Display all employees that do not have email address
     List<Employee> findByEmailIsNull();
 
+    // ------------ JPQL Queries ----------------------------------------------------------------- @Query
+
+@Query("SELECT e FROM Employee e WHERE e.email = 'olessya@me.com'")    //Employee e is : Employee e = new Employee(); class name
+    Employee getEmployeeDetails();
 
     @Query("SELECT e FROM Employee e WHERE e.email = 'sdubber7@t-online.de'")
     Employee getEmployeeDetail();
@@ -50,6 +54,7 @@ public interface EmployeeRepository extends JpaRepository<Employee,Long> {
     @Query("SELECT e.salary FROM Employee e WHERE e.email = 'sdubber7@t-online.de'")
     Integer getEmployeeSalary();
 
+    // positional data bind
     @Query("SELECT e FROM Employee e WHERE e.email=?1")
     Optional<Employee> getEmployeeDetail(String email);
 
@@ -97,17 +102,27 @@ public interface EmployeeRepository extends JpaRepository<Employee,Long> {
     List<Employee> getEmployeeSalaryOrderDesc();
 
 
+    // ------------------------------ Using native SQL query-----------------------------------nativeQuery = true
+
+
+        // employees is a table now, not java object as in jpql
     @Query(value = "SELECT * FROM employees WHERE salary ?1",nativeQuery = true)
     List<Employee> readEmployeeDetailBySalary(int salary);
 
+
+    //  ---------------------a named bind parameter ------------------ pass params in any order based on name of param
+                                                                   // :salary  is a parameter
     @Query("select e from Employee e where e.salary = :salary")
     List<Employee> getEmployeeSalary(@Param("salary") int salary);
 
+    // ---------------NOT ONLY SELECT, BUT ALSO ------------ UPDATE,DELETE, INSERT----------------
+    // -------------------@Modifying----- @Transactional (to can roll back if needed)--------------
     @Modifying
     @Transactional
     @Query("UPDATE Employee e SET e.email = 'admin@email.com' WHERE e.id=:id")
     void updateEmployeeJPQL(@Param("id") int id);
 
+    // ----------- USING NATIVE SQL
     @Modifying
     @Transactional
     @Query(value = "UPDATE employees SET email = 'admin@email.com' WHERE id=:id",nativeQuery = true)
